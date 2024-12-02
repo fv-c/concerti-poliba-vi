@@ -4,22 +4,48 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Slides-Revealjs-Template</title>
+		<meta name="description" content="Slides-Revealjs-Template">
+		<meta name="author" content="Name Surname">
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/consba-custom.css">
+		<link rel="stylesheet" href="assets/css/nav.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
+		<!-- nav -->
+
+		<div class="nav-wrapper">
+			<div class="nav-content-wrapper">
+				<div class="nav-logo-wrapper">
+					<img src="assets/img/consba-logo.svg" alt="">
+				</div>
+				<div class="nav-info-wrapper">
+					<p>Author</p>
+					<div>Title: Subtitle</div>
+					<p>Description</p>
+				</div>
+				<div class="nav-clock-wrapper">
+					Orologio
+				</div>
+			</div>
+		</div>
+
+		<!-- slides -->
+
 		<div class="reveal">
 			<div class="slides">
 				<section>Slide 1</section>
 				<section>Slide 2</section>
+				<section><h2 class="r-fit-text">BIG</h2></section>
 			</div>
 		</div>
+
+		<!-- reveal.js plugins -->
 
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
