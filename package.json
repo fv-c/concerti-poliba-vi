@@ -10,14 +10,24 @@
   "scripts": {
     "test": "gulp test",
     "start": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp build",
+    "package": "gulp package"
   },
   "author": {
+    "name": "Francesco Vituci",
+    "email": "info@francescovitucci.com",
+    "web": "https://www.francescovitucci.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:consba/slides-revealjs-template.git"
+  },
+  "or-author": {
     "name": "Hakim El Hattab",
     "email": "hakim.elhattab@gmail.com",
     "web": "https://hakim.se"
   },
-  "repository": {
+  "or-repository": {
     "type": "git",
     "url": "git://github.com/hakimel/reveal.js.git"
   },
