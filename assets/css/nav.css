@@ -55,3 +55,95 @@
     align-items: center;
     /* border: 1px black solid; */
 }
+
+/* TEST---------------------------------  */
+
+.reveal .slides .imgLtextR {
+    display: flex !important;
+    flex-direction: column;
+    border: 2px red solid;
+    height: 80vh;
+    min-height: 80vh;
+    justify-content: space-around;
+    transition: ease-in-out .2s;
+ }
+
+.reveal .slides .imgLtextR .slide-title {
+    display: flex;
+    flex-direction: column;
+    border: 2px indigo solid;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 14vh;
+    width: 90%;
+    margin: auto;
+}
+.reveal .slides .imgLtextR .slide-content {
+    display: flex;
+    flex-direction: row;
+    border: 2px darkgreen solid;
+    align-items: stretch;
+    justify-content: space-around;
+    height: 64vh;
+    width: 90%;
+    margin: auto;
+}
+
+.reveal .slides .imgLtextR .slide-title h3 {
+    width: 98%;
+    margin: auto;
+    border: 1px grey dashed;
+    font-size: 1ew;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+}
+
+.reveal .slides .imgLtextR .slide-title h4 {
+    width: 100%;
+    width: 98%;
+    margin: auto;
+    border: 1px grey dashed;
+    font-size: 1ew;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+}
+
+.reveal .slides .imgLtextR .slide-content .imgL-wrapper {
+    border: 1px grey dashed;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 39%;
+}
+
+.reveal .slides .imgLtextR .slide-content .textR-wrapper {
+    border: 1px grey dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59%;
+}
+
+.reveal .slides .imgLtextR .slide-content .imgL-wrapper div {
+    border: 1px grey dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 0;
+}
+
+.reveal .slides .imgLtextR .slide-content .textR-wrapper div {
+    border: 1px grey dashed;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.reveal .slides .imgLtextR .slide-content .imgL-wrapper div img {
+    max-width: 100%;
+}
