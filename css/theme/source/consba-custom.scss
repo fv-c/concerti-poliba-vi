@@ -4,6 +4,8 @@
  * By Francesco Vitucci, https://www.francescovitucci.com
  */
 
+ @use "sass:color";
+
 
 // Default mixins and settings -----------------
 @import "../template/mixins";
@@ -29,7 +31,8 @@ $headingLetterSpacing: normal;
 $headingTextTransform: none;
 $headingFontWeight: 600;
 $linkColor: #0061a5;
-$linkColorHover: lighten( $linkColor, 15% );
+// $linkColorHover: lighten( $linkColor, 15% );
+$linkColorHover: color.adjust( $linkColor, $lightness: 15% );
 $selectionBackgroundColor: rgba( $linkColor, 0.75 );
 
 $heading1Size: 2.5em;
@@ -43,4 +46,8 @@ $heading4Size: 1.0em;
 
 // Theme template ------------------------------
 @import "../template/theme";
+// ---------------------------------------------
+
+// Slide template ------------------------------
+@import "../template/consba-slide";
 // ---------------------------------------------

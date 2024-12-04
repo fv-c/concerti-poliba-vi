@@ -1,0 +1,44 @@
+// Slide template for reveal.js
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+
+.reveal .slides section .slide-title {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+.reveal .slides section .slide-content {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+}
+
+.reveal .slides section .slide-title h3 {
+    width: 100%;
+    border: 1px grey dashed;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+}
+
+.reveal .slides section .slide-title h4 {
+    width: 100%;
+    border: 1px grey dashed;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+}

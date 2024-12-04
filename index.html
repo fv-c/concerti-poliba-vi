@@ -39,7 +39,13 @@
 
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
+				<section>
+					<div class="slide-title">
+						<h3>Title</h3>
+						<h4>Subtitle</h4>
+					</div>
+					<div class="slide-content"><p>Lorem</p></div>
+				</section>
 				<section>Slide 2</section>
 				<section><h2 class="r-fit-text">BIG</h2></section>
 			</div>
@@ -57,7 +63,9 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				width: window.innerWidth,
+     			height: window.innerHeight,
+				scrollActivationWidth: null,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
