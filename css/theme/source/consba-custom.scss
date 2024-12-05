@@ -31,6 +31,7 @@ $headingLetterSpacing: normal;
 $headingTextTransform: none;
 $headingFontWeight: 600;
 $linkColor: #0061a5;
+$grayColor: #57585a;
 // $linkColorHover: lighten( $linkColor, 15% );
 $linkColorHover: color.adjust( $linkColor, $lightness: 15% );
 $selectionBackgroundColor: rgba( $linkColor, 0.75 );
@@ -52,6 +53,10 @@ $heading4Size: 1.0em;
 @import "../template/consba-slide";
 // ---------------------------------------------
 
-// Nav template ------------------------------
+// Nav template --------------------------------
 @import "../template/consba-nav";
+// ---------------------------------------------
+
+// Mermaid template ----------------------------
+@import "../template/consba-mermaid";
 // ---------------------------------------------
