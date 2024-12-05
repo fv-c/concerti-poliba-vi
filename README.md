@@ -4,6 +4,20 @@ Reveal.js template for research works at the Conservatorio “N. Piccinni” of 
 
 The template is based on [reveal.js distribution](https://github.com/hakimel/reveal.js). The original README.md file's content is shown in the following section.
 
+1) First install dependencies:
+
+```
+npm install
+```
+2) Start a live server (useful for some reveal.js feature, like external Markdown)
+
+```
+npm run
+```
+3) Go on [http://localhost:8000](http://localhost:8000)
+
+After development, you can deploy the slides using GitGub Pages.
+
 ---
 
 <p align="center">
