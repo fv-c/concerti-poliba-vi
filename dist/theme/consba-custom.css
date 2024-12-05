@@ -13,12 +13,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 :root {
   --r-background-color: #ffffff;
-  --r-main-font: Montserrata, Arial, sans-serif;
+  --r-main-font: Montserrat, Arial, sans-serif;
   --r-main-font-size: 42px;
   --r-main-color: #000000;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Montserrata, Arial, sans-serif;
+  --r-heading-font: Montserrat, Arial, sans-serif;
   --r-heading-color: #000000;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
@@ -356,4 +356,135 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   .backgrounds {
     background-color: var(--r-background-color);
   }
+}
+.reveal .slides .imgLtextR {
+  display: flex !important;
+  flex-direction: column;
+  border: 2px red solid;
+  height: 80vh;
+  min-height: 80vh;
+  justify-content: space-around;
+  transition: ease-in-out 0.2s;
+}
+.reveal .slides .imgLtextR .slide-title {
+  display: flex !important;
+  flex-direction: column;
+  border: 2px indigo solid;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 14vh;
+  width: 90%;
+  margin: auto;
+}
+.reveal .slides .imgLtextR .slide-title h3 {
+  width: 98%;
+  margin: auto;
+  border: 1px grey dashed;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  vertical-align: center;
+}
+.reveal .slides .imgLtextR .slide-title h4 {
+  width: 98%;
+  margin: auto;
+  border: 1px grey dashed;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+  vertical-align: center;
+}
+.reveal .slides .imgLtextR .slide-content {
+  display: flex;
+  flex-direction: row;
+  border: 2px darkgreen solid;
+  align-items: center;
+  justify-content: space-around;
+  height: 64vh;
+  width: 90%;
+  margin: auto;
+}
+.reveal .slides .imgLtextR .slide-content .imgL-wrapper {
+  border: 1px grey dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 39%;
+  height: 95%;
+}
+.reveal .slides .imgLtextR .slide-content .imgL-wrapper div {
+  border: 1px grey dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0;
+}
+.reveal .slides .imgLtextR .slide-content .imgL-wrapper div img {
+  max-width: 100%;
+}
+.reveal .slides .imgLtextR .slide-content .textR-wrapper {
+  border: 1px grey dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59%;
+  height: 95%;
+}
+.reveal .slides .imgLtextR .slide-content .textR-wrapper div {
+  border: 1px grey dashed;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.nav-wrapper {
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10%;
+  border: 1px black solid;
+  transition: ease-in-out 0.2s;
+}
+.nav-wrapper .nav-content-wrapper {
+  width: 97%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px black solid;
+}
+.nav-wrapper .nav-content-wrapper .nav-logo-wrapper {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-wrapper .nav-content-wrapper .nav-logo-wrapper img {
+  height: 90%;
+}
+.nav-wrapper .nav-content-wrapper .nav-info-wrapper {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vh;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+.nav-wrapper .nav-content-wrapper .nav-clock-wrapper {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", Arial, sans-serif;
 }

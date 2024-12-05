@@ -24,8 +24,8 @@ $mainColor: #000000;
 $headingColor: #000000;
 
 $mainFontSize: 42px;
-$mainFont: 'Montserrata', Arial, sans-serif;
-$headingFont: 'Montserrata', Arial, sans-serif;
+$mainFont: 'Montserrat', Arial, sans-serif;
+$headingFont: 'Montserrat', Arial, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
@@ -50,4 +50,8 @@ $heading4Size: 1.0em;
 
 // Slide template ------------------------------
 @import "../template/consba-slide";
+// ---------------------------------------------
+
+// Nav template ------------------------------
+@import "../template/consba-nav";
 // ---------------------------------------------
