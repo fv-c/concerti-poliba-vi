@@ -12,7 +12,7 @@ npm install
 2) Start a live server (useful for some reveal.js feature, like external Markdown)
 
 ```
-npm run
+npm start
 ```
 3) Go on [http://localhost:8000](http://localhost:8000)
 
@@ -66,7 +66,7 @@ Hakim's open source work is supported by <a href="https://github.com/sponsors/ha
 - 🖌 [Try the visual editor for reveal.js at Slides.com](https://slides.com/)
 - 🎬 [Watch the reveal.js video course (paid)](https://revealjs.com/course)
 
---- 
+---
 <div align="center">
   MIT licensed | Copyright © 2011-2024 Hakim El Hattab, https://hakim.se
 </div>
