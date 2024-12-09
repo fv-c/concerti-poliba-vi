@@ -746,20 +746,24 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal .headerSlide .sectionHeaderSlide .downArrow {
-  bottom: 45%;
-  left: 50%;
   -moz-animation: bounce 3s infinite;
   -webkit-animation: bounce 3s infinite;
   animation: bounce 3s infinite;
 }
 .reveal .headerSlide .bibWrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
+  top: 30vh !important;
   text-align: left;
+  padding-top: 100px;
 }
 .reveal .headerSlide .bibWrapper .bibItem {
-  font-size: 0.35em;
+  font-size: 0.25em;
   margin-bottom: 20px;
+  border-left: 3px solid #0061a5;
+  padding-left: 10px;
+  width: 45%;
 }
 .reveal .headerSlide .bibWrapper .bibItem .url {
   color: #0061a5;
