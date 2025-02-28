@@ -917,3 +917,65 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
+
+.chat-container {
+  max-width: 70%;
+  max-height: 400px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+  font-size: 0.7em;
+}
+.message.gpt {
+  background-color: #deecfa;
+  align-self: flex-start;
+  text-align: left;
+}
+.message.me {
+  background-color: #d3f1d2;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.input-box {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 5px;
+  background: white;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
